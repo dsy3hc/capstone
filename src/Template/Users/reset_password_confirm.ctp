@@ -1,0 +1,1 @@
+<?= __('A password reset link has been sent to  <b>{0}</b>', $email) ?>

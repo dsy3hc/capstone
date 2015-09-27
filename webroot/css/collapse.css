@@ -1,0 +1,11 @@
+div.toggleDown { 
+  cursor: pointer; 
+  font-weight: bold;
+}
+div.hiddenText { 
+  display: none; 
+}
+div.toggleUp { 
+  cursor: pointer; 
+  font-weight: bold;
+}

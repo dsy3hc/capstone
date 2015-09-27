@@ -1,0 +1,9 @@
+machine:
+  php:
+    version: 5.5.8
+
+dependencies:
+  pre:
+    - "mysql -u root -e 'create database slp_jaunt_test;'"
+    - "mysql -u root -e \"grant all on slp_jaunt_test.* to 'jaunt';\""
+    - "ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock"

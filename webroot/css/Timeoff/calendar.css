@@ -1,0 +1,39 @@
+.calendar-container {
+    position: relative;
+    margin-top: 30px;
+}
+
+.popup {
+    background-color: white;
+    border: 3px solid gray;
+    display: none;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 10;
+    padding: 25px;
+}
+
+.event {
+    cursor: pointer;
+}
+
+#modal-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    font-size: 2em;
+    color: gray;
+    z-index: 10;
+}
+
+.request-label {
+    font-weight: bold;
+}
+
+#modal-buttons div {
+    padding-bottom: 10px;
+    width: 100%;
+}

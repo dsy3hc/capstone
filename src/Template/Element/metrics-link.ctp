@@ -1,0 +1,1 @@
+<?= $this->Element('sidebar-link', ['controller' => 'Users', 'action' => 'metrics', 'linkText' => 'Usage Metrics']); ?>

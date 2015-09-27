@@ -1,0 +1,1 @@
+<?= $this->Element('sidebar-link', ['controller' => 'Reservations', 'action' => $resAction, 'linkText' => $resText]); ?>

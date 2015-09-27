@@ -1,0 +1,45 @@
+.remove-option {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    font-size: 2em;
+    color: gray;
+    z-index: 10;
+}
+
+.option {
+    position: relative;
+}
+
+#add-option {
+    margin-bottom: 10px;
+}
+
+#options-table tbody tr {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.option1 {
+    background-color: #3A87AD !important;
+    border-color: #3A87AD !important;
+}
+
+.option2 {
+    background-color: #66aacc !important;
+    border-color: #66aacc !important;
+}
+
+.option3 {
+    background-color: #a3cce0 !important;
+    border-color: #a3cce0 !important;
+}
+
+#table-header {
+    text-align: center;
+}
+
+#comments-container {
+    margin-top: 15px;
+}

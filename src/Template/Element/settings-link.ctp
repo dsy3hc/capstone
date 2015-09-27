@@ -1,0 +1,1 @@
+<?= $this->Element('sidebar-link', ['controller' => 'Settings', 'action' => 'index', 'linkText' => 'Settings']); ?>
